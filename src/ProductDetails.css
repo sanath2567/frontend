@@ -1,0 +1,101 @@
+.product-details-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  transition: transform 0.3s ease;
+}
+
+.product-details-container:hover {
+  transform: scale(1.02);
+}
+
+.product-title {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
+/* 
+.product-description {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-align: justify;
+   */
+   .product-description {
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 25px;
+    line-height: 1.8;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: justify;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+  }
+  
+
+.product-details-container p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.product-details-container p strong {
+  color: #2980b9;
+  font-weight: 600;
+}
+
+.product-image {
+  display: block;
+  margin: 40px auto;
+  max-width: 90%;
+  width: 50%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.edit-product-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.edit-product-link:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+.edit-product-link:active {
+  background-color: #a93226;
+  transform: scale(1.03);
+}
